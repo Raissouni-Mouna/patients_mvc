@@ -14,7 +14,8 @@ public class BookService {
             public int compare(Book o1, Book o2) {
                 return o2.getName().compareTo(o1.getName()); }
         });
-        Collections.sort(books, (o1, o2) -> o1.getName().compareTo(o2.getName()));
+        //Collections.sort(books, (o1, o2) -> o1.getName().compareTo(o2.getName()));
+        //test
         return books;
     }
 
